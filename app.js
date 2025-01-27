@@ -39,7 +39,13 @@ function sortearAmigo() {
         
     let indiceAleatorio = Math.floor(Math.random() * listaDeAmigos.length);
     let amigoSorteado = listaDeAmigos[indiceAleatorio];
+
+    // vai retirar da lista o nome que já foi sorteado
+    listaDeAmigos.splice(indiceAleatorio, 1);
+
     // vai mostrar na tela o nome que foi sorteado    
     let resultado = document.getElementById("resultado");
     resultado.innerHTML = `<li>Amigo sorteado: ${amigoSorteado}</li>`;
+
+    atualizarListaDeAmigos();
 }
