@@ -12,7 +12,7 @@ Essa simples aplicação web tem o intuito de sortear amigos secretos. O usuári
 
 ## Como Usar
 
-1. Acesse o [Link](https://davidsonvitoriano.github.io/Challenge-Amigo-Secreto/) para utilizado.
+1. Acesse o [Link]https://amigo-secreto-eta-orcin.vercel.app/) para utilizado.
 2. Digite um nome no campo e clique no botão "Adicionar".
 3. Clique no botão "Sortear amigo" para sortear um nome.
 
